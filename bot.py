@@ -1,7 +1,8 @@
 import discord
 import requests
 
-TOKEN = '-'
+import os
+TOKEN = os.getenv("TOKEN")
 ZAPIER_OR_MAKE_WEBHOOK = 'https://hook.eu2.make.com/g84t9wcjwzs1khnpw992e8kt3mdjl2xb'
 ALLOWED_CHANNEL_ID = 1377870443989569628  # ✅ ใส่ ID ช่องที่ให้ฟังเฉพาะ
 
